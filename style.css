@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+}
+
+#header {
+  background-color: #ff0000;
+  height: 200px;
+  background-image:linear-gradient(red, orange);
+}
+#menu {
+  background-color: black;
+  height: 50px;
+}
+.logo {
+  height: 200px;
+}
+.dodge  {
+  height: 52px;
+  padding-right: 200px;
+}
+#content {
+  background-color: #DDDDDD;
+  padding: 40px;
+}
+#footer {
+  background-color: #7FDBFF;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  word-spacing: 2px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
